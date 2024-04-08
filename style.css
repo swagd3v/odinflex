@@ -1,0 +1,42 @@
+li {
+  list-style: none;
+}
+
+img {
+  display: block;
+  width: 200px;
+  height: auto;
+}
+
+h2 {
+  text-align: center;
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #d21515;
+  color: #c8c4c4;
+}
+
+.header-links {
+  display: flex;
+  gap: 10px;
+}
+
+.intro {
+  display: flex;
+
+  background-color: #d21515;
+}
+
+.left {
+  background-color: #d21515;
+  color: #c8c4c4;
+  width: 300px;
+  margin: auto;
+}
+
+.subtext-container {
+  display: flex;
+  justify-content: center;
+}
