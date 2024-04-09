@@ -3,7 +3,6 @@ li {
 }
 
 img {
-  display: block;
   width: 200px;
   height: auto;
 }
@@ -25,8 +24,9 @@ h2 {
 
 .intro {
   display: flex;
-
+  gap: 15px;
   background-color: #d21515;
+  margin: 10px;
 }
 
 .left {
@@ -39,4 +39,43 @@ h2 {
 .subtext-container {
   display: flex;
   justify-content: center;
+  min-width: 0;
+  gap: 25px;
+}
+
+.second-row {
+  background-color: #c8c4c4;
+  padding: 30px;
+}
+
+.info {
+  flex: 0 1 0;
+}
+
+.mega-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #d21515;
+}
+
+.fourth-row {
+  display: flex;
+  border: 1px solid black;
+  gap: 20px;
+  background-color: #c8c4c4;
+  position: relative;
+  padding: 10px;
+  width: 600px;
+}
+
+.bottom-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.third-row {
+  width: 400px;
+  padding: 25px;
 }
